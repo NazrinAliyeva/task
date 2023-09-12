@@ -1,0 +1,572 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.grey-text {
+  color: #606176;
+  font-weight: 400;
+  font-style: 20px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .grey-text {
+    font-weight: 100;
+    font-style: 10px;
+  }
+}
+
+.btn-blue-bordered, .card-wrapper4 .main-part .btn-blue-bordered, .card-wrapper4 .main-part .text-wrapper .btn-blue-bordered, .text-wrapper .card-wrapper4 .main-part .btn-blue-bordered, .text-wrapper .btn-blue-bordered {
+  font-size: 14px;
+  border: 1px solid #2076FF;
+  color: #2076FF;
+  font-weight: 400;
+  background: none;
+  padding: 10px 35px;
+  border-radius: 15px;
+  margin-left: 390px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .btn-blue-bordered, .card-wrapper4 .main-part .btn-blue-bordered, .card-wrapper4 .main-part .text-wrapper .btn-blue-bordered, .text-wrapper .card-wrapper4 .main-part .btn-blue-bordered, .text-wrapper .btn-blue-bordered {
+    margin: 0;
+  }
+}
+
+.orange-btn, .orange-card-wrapper .main-part .btn-orange-bordered {
+  color: #FEF4F1;
+  font-weight: 600;
+  font-style: 18px;
+  background: #F77E53;
+  padding: 20px 50px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .orange-btn, .orange-card-wrapper .main-part .btn-orange-bordered {
+    font-weight: 400;
+    font-style: 15px;
+    background: #F77E53;
+    padding: 15px 30px;
+  }
+}
+
+.white-text, .card-wrapper4 .blue-card-wrapper .blue-bg .white-text {
+  text-align: center;
+  padding-top: 30px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.blue-text, .card-wrapper3 .card .blue-text {
+  color: #101130;
+  font-weight: 700;
+  font-size: 50px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .blue-text, .card-wrapper3 .card .blue-text {
+    font-weight: 500;
+    font-size: 30px;
+  }
+}
+
+.header {
+  padding: 30px 70px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .header {
+    padding: 10px;
+  }
+}
+.header .nav-btn {
+  background: #E8F1FF;
+  color: #2378FF;
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-style: 16px;
+}
+.header .nav-btn :hover {
+  background: #E8F1FF;
+  color: #2378FF;
+}
+
+.hero {
+  padding: 100px 90px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .hero {
+    padding: 50px 30px;
+  }
+}
+
+.title {
+  color: #101130;
+  font-weight: 700;
+  font-size: 60px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .title {
+    font-weight: 600;
+    font-size: 30px;
+  }
+}
+
+.subtitle {
+  color: #606176;
+  font-weight: 400;
+  font-size: 20px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .subtitle {
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
+
+.logo-wrapper {
+  padding: 20px 40px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .logo-wrapper {
+    padding: 50px 30px;
+  }
+}
+.logo-wrapper .logo-item {
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .logo-wrapper .logo-item {
+    margin: 20px 30px;
+  }
+}
+
+.title2 {
+  color: #101130;
+  font-weight: 700;
+  font-size: 44px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .title2 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+}
+
+.card-wrapper .blue-card-text {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+}
+.card-wrapper .card-wrapper2 {
+  display: flex;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+.card-wrapper .card-wrapper2 .card1 {
+  margin-right: 140px;
+  margin-bottom: 100px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .card-wrapper .card-wrapper2 .card1 {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .card-wrapper .card-wrapper2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.text-wrapper {
+  padding: 30px 130px;
+  display: flex;
+  align-items: end;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .text-wrapper {
+    padding: 20px 30px;
+  }
+}
+.box-wrapper {
+  margin: 50px 0px 20px 160px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .box-wrapper {
+    margin: 0;
+  }
+}
+.box-wrapper .box {
+  margin: 0;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .box-wrapper .box {
+    margin: 10px;
+  }
+}
+.box-wrapper .box .box-text {
+  font-weight: 600;
+  font-style: 20px;
+  color: #101130;
+}
+.box-wrapper .box .box-grey-text {
+  font-weight: 400;
+  font-size: 14px;
+}
+.box-wrapper .box .wrapper .wrapper-items {
+  display: flex;
+  align-items: center;
+}
+.box-wrapper .box .blue-btn {
+  color: #2076FF;
+  border: 1px solid #2076FF;
+  background: none;
+  padding: 10px 65px;
+  border-radius: 7px;
+}
+.box-wrapper .box .blue-btn2 {
+  color: #fff;
+  border: none;
+  padding: 10px 65px;
+  border-radius: 7px;
+  background: #2076FF;
+}
+
+.wrapper2 {
+  padding: 30px 100px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .wrapper2 {
+    padding: 30px 10px;
+  }
+}
+.wrapper2 .text-wrapper2 {
+  margin: 100px 0 0 0;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .wrapper2 .text-wrapper2 {
+    margin: 10px;
+  }
+}
+
+.wrapper3 {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .wrapper3 {
+    padding-left: 0px;
+  }
+}
+.wrapper3 .arrows-icon {
+  padding-left: 400px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .wrapper3 .arrows-icon {
+    padding-left: 70px;
+  }
+}
+
+.card-wrapper3 {
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+  padding-top: 50px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .card-wrapper3 {
+    padding-left: 0px;
+  }
+}
+.card-wrapper3 .card {
+  border: none;
+}
+.card-wrapper3 .card .blue-text {
+  font-size: 22px;
+}
+.card-wrapper3 .card .profile {
+  display: flex;
+  align-items: center;
+  line-height: 5px;
+}
+.card-wrapper3 .card .profile .profile-items-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.card-wrapper4 {
+  display: flex;
+  margin: 30px 100px;
+  justify-content: space-between;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .card-wrapper4 {
+    margin: 10px;
+  }
+}
+.card-wrapper4 .blue-card-wrapper {
+  width: 305px;
+  height: 587px;
+  border-radius: 18px;
+}
+.card-wrapper4 .blue-card-wrapper .blue-bg {
+  height: 100px;
+  background: #2076FF;
+  border-radius: 18px 18px 0 0;
+}
+.card-wrapper4 .main-part {
+  background: #EDF3FF;
+  border-radius: 0 0 18px 18px;
+}
+.card-wrapper4 .main-part .price {
+  padding-top: 20px;
+  color: #101130;
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+}
+.card-wrapper4 .main-part .card-texts-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 30px;
+}
+.card-wrapper4 .main-part .btn-blue-bordered, .card-wrapper4 .main-part .btn-blue-bordered, .card-wrapper4 .main-part .text-wrapper .btn-blue-bordered, .text-wrapper .card-wrapper4 .main-part .btn-blue-bordered {
+  margin: 30px 70px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .card-wrapper4 .main-part .btn-blue-bordered, .card-wrapper4 .main-part .btn-blue-bordered, .card-wrapper4 .main-part .text-wrapper .btn-blue-bordered, .text-wrapper .card-wrapper4 .main-part .btn-blue-bordered {
+    margin: 60px;
+  }
+}
+
+.yellow-card-wrapper {
+  width: 305px;
+  height: 587px;
+  border-radius: 18px;
+}
+.yellow-card-wrapper .yellow-bg {
+  height: 100px;
+  background: #F6C07A;
+  border-radius: 18px 18px 0 0;
+}
+.yellow-card-wrapper .main-part {
+  background: #FEF0C3;
+  border-radius: 0 0 18px 18px;
+}
+.yellow-card-wrapper .main-part .btn-yellow-bordered {
+  font-size: 14px;
+  border: 1px solid #F6C07A;
+  color: #F6C07A;
+  font-weight: 400;
+  background: none;
+  padding: 10px 35px;
+  border-radius: 15px;
+  margin: 30px 70px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .yellow-card-wrapper .main-part .btn-yellow-bordered {
+    margin: 60px;
+  }
+}
+
+.orange-card-wrapper {
+  width: 305px;
+  height: 587px;
+  border-radius: 18px;
+}
+.orange-card-wrapper .orange-bg {
+  height: 100px;
+  background: #F77E53;
+  border-radius: 18px 18px 0 0;
+}
+.orange-card-wrapper .main-part {
+  background: #FEE6DC;
+  border-radius: 0 0 18px 18px;
+}
+.orange-card-wrapper .main-part .btn-orange-bordered {
+  font-size: 14px;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 15px;
+  margin: 30px 70px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .orange-card-wrapper .main-part .btn-orange-bordered {
+    margin: 60px;
+  }
+}
+
+.footer {
+  padding-left: 200px;
+  /*
+      breakpoints are viewport arbitrary values,
+      they are defined with the aim of allowing the SCSS/CSS code of your app' behave accordingly to your user's device width,
+      the breakpoints I used were inspired by Bootstrap =>
+      https://getbootstrap.com/docs/5.0/layout/breakpoints/
+  */
+}
+@media only screen and (max-width: 575.98px) {
+  .footer {
+    padding-left: 30px;
+  }
+}
+.footer .black-text {
+  color: #101130;
+  font-weight: 600;
+  font-size: 24px;
+}
+.footer .top-bordered {
+  border-top: 1px solid grey;
+  width: 1200px;
+  padding: 20px 0;
+}/*# sourceMappingURL=style.css.map */

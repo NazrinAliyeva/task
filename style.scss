@@ -1,0 +1,381 @@
+@import 'responsive.scss';
+*{
+padding: 0;
+margin: 0;
+} 
+.grey-text{
+    color: #606176;
+    font-weight: 400;
+    font-style: 20px; 
+    @include responsive(smartphone-portrait){
+        font-weight: 100;
+    font-style: 10px;   
+    } 
+} 
+.btn-blue-bordered{
+    font-size: 14px;
+    border: 1px solid #2076FF;
+    color: #2076FF;
+    font-weight: 400;
+    background: none;
+    padding: 10px 35px;
+    border-radius: 15px;
+    margin-left: 390px;
+    @include responsive(smartphone-portrait){
+        margin:0;
+     
+         } 
+} 
+.orange-btn{
+    color: #FEF4F1;
+    font-weight: 600;
+    font-style: 18px;
+    background: #F77E53;
+    padding: 20px 50px;
+    @include responsive(smartphone-portrait){
+        font-weight: 400;
+        font-style: 15px;
+        background: #F77E53;
+        padding: 15px 30px;
+   
+         } 
+}
+.white-text{
+    text-align: center;
+    padding-top: 30px;
+    color: #FFFFFF;
+font-weight: 600;
+font-size: 26px;
+}
+.blue-text{
+    color: #101130;
+    font-weight: 700;
+    font-size: 50px;
+    @include responsive(smartphone-portrait){
+   font-weight: 500;
+font-size: 30px;
+    } 
+} 
+.header{
+    padding: 30px 70px;
+    
+    @include responsive(smartphone-portrait){
+        padding: 10px;
+    }
+    .nav-btn{
+        background: #E8F1FF;
+    color: #2378FF;
+        outline: none;
+        border: none;
+        padding: 15px 30px;
+        font-weight: 600;
+        font-style: 16px;
+        & :hover{
+            background: #E8F1FF;
+            color: #2378FF;
+        }
+    }
+}
+.hero{
+    padding: 100px 90px;
+    @include responsive(smartphone-portrait){
+        padding: 50px 30px;
+         } 
+}
+    .title{
+        color: #101130;
+        font-weight: 700;
+        font-size: 60px;
+        @include responsive(smartphone-portrait){
+            font-weight: 600;
+         font-size: 30px;
+             } 
+    }
+    .subtitle{
+        color: #606176;
+        font-weight: 400;
+        font-size: 20px;
+        @include responsive(smartphone-portrait){
+            font-weight: 300;
+         font-size: 15px;
+             } 
+    }
+    .orange-btn{
+@extend .orange-btn
+    }
+    .logo-wrapper{
+       padding: 20px 40px;
+        @include responsive(smartphone-portrait){
+            padding: 50px 30px;
+             } 
+.logo-item{
+    
+    @include responsive(smartphone-portrait){
+        margin: 20px 30px;
+
+         } 
+}
+    }
+    .title2{
+        color: #101130;
+        font-weight: 700;
+        font-size: 44px;
+        @include responsive(smartphone-portrait){
+            font-weight: 600;
+         font-size: 30px;
+             } 
+    }
+
+    .card-wrapper{
+        .blue-card-text{
+            font-weight: 500;
+            font-size: 20px;
+            text-align: left;
+        }
+        .card-wrapper2{
+            display: flex;
+          .card1{
+            margin-right: 140px;
+            margin-bottom: 100px;
+            @include responsive(smartphone-portrait){
+                margin-right: 10px;
+                margin-bottom: 10px;
+             
+                 } 
+          }
+            @include responsive(smartphone-portrait){
+                display: flex;
+ flex-direction: column;
+             
+                 } 
+        }
+    }
+.text-wrapper{
+    padding: 30px 130px;
+    display: flex;
+    align-items: end;
+    @include responsive(smartphone-portrait){
+        padding: 20px 30px;
+     
+         } 
+    .btn-blue-bordered{
+@extend .btn-blue-bordered;
+    }
+}
+.box-wrapper{
+margin: 50px 0px 20px 160px;
+@include responsive(smartphone-portrait){
+    margin:0;
+ 
+     } 
+    .box{
+        margin: 0;
+        @include responsive(smartphone-portrait){
+            margin:10px;
+         
+             }
+             .box-text{
+                font-weight: 600;
+                font-style: 20px;
+                color: #101130;
+              } 
+              .box-grey-text{
+font-weight: 400;
+font-size: 14px;
+              }
+        .wrapper{ 
+              
+            .wrapper-items{
+                display: flex;
+                align-items: center;
+                
+      
+            }
+        }
+        .blue-btn{
+            color: #2076FF;
+            border: 1px solid #2076FF;
+            background: none;
+            padding: 10px 65px;
+            border-radius: 7px;
+        }
+        .blue-btn2{
+            color: #fff;
+            border:none;
+            padding: 10px 65px;
+            border-radius: 7px;
+            background: #2076FF;
+        }
+    }
+    
+}
+.wrapper2{
+    padding: 30px 100px;
+    @include responsive(smartphone-portrait){
+        padding: 30px 10px;
+     
+         }
+    .text-wrapper2{
+    margin: 100px 0 0 0;
+    @include responsive(smartphone-portrait){
+        margin:10px;
+         }
+    }
+}
+.wrapper3{
+display: flex;
+align-items: center;
+padding-left: 100px;
+@include responsive(smartphone-portrait){
+    padding-left: 0px;
+
+     }
+.arrows-icon{
+    padding-left: 400px;
+    @include responsive(smartphone-portrait){
+    padding-left: 70px;
+
+     }
+}
+}
+.card-wrapper3{
+    display: flex;
+align-items: center;
+padding-left: 150px;
+padding-top: 50px;
+@include responsive(smartphone-portrait){
+    padding-left: 0px;
+     }
+    .card{
+        border: none;
+        .blue-text{
+            @extend .blue-text;
+            font-size: 22px;
+        }
+    .profile{
+        display: flex;
+        align-items: center;
+        line-height: 5px;
+        .profile-items-wrapper{
+         display: flex;
+         flex-direction: column;
+         gap: 0;
+        }
+    
+    }
+    }
+}
+.card-wrapper4{ 
+    display: flex;
+   margin: 30px 100px;
+    justify-content: space-between;
+    @include responsive(smartphone-portrait){
+margin: 10px;
+         }
+    .blue-card-wrapper{
+        width: 305px;
+        height: 587px;
+        border-radius: 18px;
+        .blue-bg{
+            height: 100px;
+            background: #2076FF;
+            border-radius: 18px 18px 0 0;
+.white-text{
+    @extend .white-text;
+}
+        }
+    }
+.main-part{
+    background: #EDF3FF;
+    border-radius: 0 0 18px 18px;
+    .price{
+        padding-top: 20px;
+        color: #101130;
+        font-size: 44px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .card-texts-wrapper{
+        display: flex;
+        align-items:center;
+        gap: 15px;
+        padding-left: 30px;
+    }
+    .btn-blue-bordered{
+        @extend .btn-blue-bordered;
+        margin: 30px 70px;
+        @include responsive(smartphone-portrait){
+            margin:60px;
+             } 
+    } 
+            }
+}
+.yellow-card-wrapper{
+    width: 305px;
+    height: 587px;
+    border-radius: 18px;
+    .yellow-bg{
+        height: 100px;
+        background:#F6C07A;
+        border-radius: 18px 18px 0 0;
+    }
+    .main-part{
+           background: #FEF0C3;
+    border-radius: 0 0 18px 18px;
+    .btn-yellow-bordered{
+        font-size: 14px;
+        border: 1px solid #F6C07A;
+        color: #F6C07A;
+        font-weight: 400;
+        background: none;
+        padding: 10px 35px;
+        border-radius: 15px;
+        margin:  30px 70px;
+        @include responsive(smartphone-portrait){
+            margin:60px;
+             } 
+    } 
+    }
+}
+.orange-card-wrapper{
+    width: 305px;
+    height: 587px;
+    border-radius: 18px;
+    .orange-bg{
+        height: 100px;
+        background:#F77E53;
+        border-radius: 18px 18px 0 0;
+    }
+    .main-part{
+           background: #FEE6DC;
+    border-radius: 0 0 18px 18px;
+    .btn-orange-bordered{
+@extend .orange-btn;
+font-size: 14px;
+border: none;
+padding: 10px 35px;
+border-radius: 15px;
+margin:  30px 70px;
+        @include responsive(smartphone-portrait){
+            margin:60px;
+             } 
+    } 
+    }
+}
+
+.footer{
+ padding-left: 200px;
+ @include responsive(smartphone-portrait){
+padding-left: 30px;
+     } 
+    .black-text{
+        color: #101130;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .top-bordered{
+        border-top: 1px solid grey;
+        width: 1200px;
+        padding: 20px 0;
+    }
+}
